@@ -8,7 +8,7 @@ menu:
     相册: /gallery
 
 # header
-avtor: /img/logo.png
+avtor: false
 # if the value of avtor is false
 say: Welcome 
 
@@ -16,30 +16,30 @@ say: Welcome
 # img/01.jpg
 # https://source.unsplash.com/collection/954550/1920x1080
 background_image:
-    enable: false
+    enable: true
     #url: https://source.unsplash.com/collection/954550/1920x1080
-    url: img/1.jpg
+    url: img/page_bg.jpg
     #custom Radom img: https://XXX-youname-XXX.github.io/Random-img/
-    customRadom_url: https://XXX-youname-XXX.github.io/Random-img/
+    #customRadom_url: https://XXX-youname-XXX.github.io/Random-img/
     
 # show the motto
 # otherwise It shows the site description
-motto: true
+motto: false
 
 #index-style: pure or cart
 index_style: cart
 
 #index_cart_cover
-cover: img/cart_cover.jpg
+cover: img/train.jpg
 
 #page
 page_name:
-    enable: true
+    enable: false
 
 #post
 #post_comment
 comment:
-    enable: true
+    enable: false
 
 gitalk:
     enable: false
@@ -54,7 +54,7 @@ gitalk:
     hrefTrimend: '#.*$,\\?.*$,index.html$' 
     
 valine: 
-    enable: true
+    enable: false
     appid: '3333....'
     appkey: '3333......'
     #placeholder： comment
@@ -67,12 +67,12 @@ post_toc:
     title: 文章目录
 
 #post_excerpt   
-excerpt_link: 展开全文
+excerpt_link: 阅读全文
 
 #footer
 #social
 social:
-    enable: true
+    enable: false
     github: http://github.com/
     weibo: http://github.com/
     email: http://github.com/
