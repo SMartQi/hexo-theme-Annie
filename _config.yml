@@ -18,7 +18,7 @@ say: Welcome
 background_image:
     enable: true
     #url: https://source.unsplash.com/collection/954550/1920x1080
-    url: img/page_bg.jpg
+    url: https://raw.githubusercontent.com/SMartQi/Live-the-Life/master/source/gallery/page_bg.jpg
     #custom Radom img: https://XXX-youname-XXX.github.io/Random-img/
     #customRadom_url: https://XXX-youname-XXX.github.io/Random-img/
     
@@ -30,7 +30,7 @@ motto: false
 index_style: cart
 
 #index_cart_cover
-cover: img/train.jpg
+cover: https://raw.githubusercontent.com/SMartQi/Live-the-Life/master/source/gallery/train.jpg
 
 #page
 page_name:
